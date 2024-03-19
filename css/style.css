@@ -20,6 +20,7 @@ body {
     background: #FCEED5;
     height: 100vh; 
     overflow: hidden;
+    border-radius: 2rem;
 }
 
 header {
@@ -226,13 +227,13 @@ header {
     max-width: 80%;
     margin: 0 auto;
     padding-top: 6rem;
-
 }
 
 .petlineup {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
+
 }
 
 .petheading {
@@ -246,6 +247,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 2rem;
+    
     
 }
 
@@ -281,7 +283,7 @@ header {
     text-align: left;
     border-radius: 0.2rem;
     box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
-
+    border-radius: 1rem;
 
 }
 
@@ -305,7 +307,7 @@ header {
 
 .briefsection {
     display: flex;
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     justify-content: space-between;
     background-color: #003459;
@@ -413,10 +415,9 @@ header {
 
 .productmain {
     align-items: center;
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     padding-top: 6rem;
-    border: red 1px solid;
 }
 
 .productlineup {
@@ -424,6 +425,361 @@ header {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
 }
+
+.productintro {
+    display: flex;
+    flex-direction: column;
+}
+
+.productintro h4 {
+    font-size: 1.6rem;
+    padding-bottom: 1.2rem;
+    font-weight: 550;
+}
+
+.productchoice {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.productchoice h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #002A48;
+
+}
+
+.viewmore2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #002A48;
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 1rem 3rem;
+    border: 0.2rem solid #002A48;
+    background: white;
+}
+
+.productpics {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+    border-radius: 1rem;
+}
+
+.productpics img {
+    width: 100%;
+    border-radius: 0.2rem;
+}
+
+.productinfo h3 {
+    font-size: 1.6rem;
+    color: #01131f;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.productinfo p {
+    color: #667479;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+}
+
+.petseller {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    width: 80%;
+    margin: 5rem auto 0;
+    }
+
+
+.petsellerproud {
+    display: flex;
+    font-size: 1.6rem;
+    padding-bottom: 1.2rem;
+    font-weight: 550;
+    align-items: center;
+}
+
+.petseller h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #002A48;
+    padding-left: 0.2rem;
+}
+
+.viewmore3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #002A48;
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 1rem 3rem;
+    border: 0.2rem solid #002A48;
+    background: white;
+    }
+
+    .petsellerlogo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: 2.2rem;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .adoptionsection {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        background-color: #ffb775;
+        height: 60vh;
+        border-radius: 3rem;
+        overflow: hidden;
+        margin-top: 7rem;
+
+    }
+
+    .leftadoption {
+        flex: 50%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftbriefdiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 5rem;
+    }
+
+    .leftadoption .rectangle9 {
+        position: absolute;
+        z-index: -1;
+        height: 40rem;
+    }
+
+    .leftbriefdiv .briefh1 {
+        display: flex;
+        align-items: flex-end;
+        gap: 1rem;
+        color: #003459;
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 6.8rem;
+        text-align: left;
+    }
+
+    .leftbriefdiv .fontisto {
+        width: 8rem;
+    }
+
+    .leftbriefdiv .briefh2 {
+        color: #003459;
+        font-size: 3.3rem;
+        font-weight: 600;
+        line-height: 6rem;
+        text-align: left;
+        margin-top: 0.8rem;
+        padding-top: 1rem;
+    }
+
+    .leftbriefdiv .briefp2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #002A48;
+        line-height: 2.4rem;
+        padding-bottom: 2rem;
+        align-items: center;
+        width: 30ch;
+        text-align: left;
+    }
+
+    .briefbtndiv1 {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .explorebtn3 {
+        border-radius: 10rem;
+        background: #002A48;
+        color: white;
+        cursor: pointer;
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+        border: 0.1rem solid #002A48;
+    }
+
+    .briefbtn2 {
+        display: flex;
+        align-items: center;
+        border-radius: 10rem;
+        background: #FCEED5;
+        color: #002A48;
+        cursor: pointer;
+        font-size: 1.5rem;
+        padding: 0.8rem 2rem;
+        border: 0.1rem solid #002A48;
+    }
+
+    .rightadoption {
+        flex: 50%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .rightadoption img {
+        width: 60rem;
+    }
+
+    .rightadoption .rec99 {
+        position: absolute;
+        z-index: -1;
+        bottom: 0rem;
+        
+    }
+
+    .petknow {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-top: 6rem;
+        justify-content: space-between;
+    }
+
+    .petknowledge {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .petknowledge h4 {
+        font-size: 1.6rem;
+        padding-bottom: 1.2rem;
+        font-weight: 550;
+    }
+
+    .petknowledge1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 4rem;
+    }
+
+    .petknowledge h2 {
+        font-size: 2.6rem;
+        font-weight: 600;
+        color: #002A48;
+    }
+
+    .viewmore4 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #002A48;
+        cursor: pointer;
+        border-radius: 10rem;
+        padding: 1rem 3rem;
+        border: 0.2rem solid #002A48;
+        background: white;
+    }
+
+    .petprofile {
+        display: flex;
+        border: red 1px solid;
+        max-width: 80%;
+        gap: 2rem;
+        margin: 0 auto;
+    }
+
+    .petinfos {
+        width: 32%;
+        padding: 1rem;
+        box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+        border-radius: 1rem;
+    }
+    .petinfos img{
+        width: 100%;
+    }
+
+    .petinfos1 button {
+        padding: 0.3rem;
+        margin-top: 1rem;
+        background: #00A7E7;
+        color: white;
+        border: #00A7E7 0.1rem solid;
+        border-radius: 10rem;
+        font-size: 1.0rem;
+    }
+
+    .petinfos h3 {
+        font-size: 1.6rem;
+        color: #01131f;
+        font-weight: 700;
+        line-height: 2.4rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .petinfos p {
+        font-size: 1.4rem;
+        color: #242B33;
+        line-height: 2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
