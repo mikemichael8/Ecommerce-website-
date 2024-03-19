@@ -13,30 +13,34 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: 'SVN-Gilroy', sans-serif;
 
 }
 #container {
     background: #FCEED5;
     height: 100vh; 
+    overflow: hidden;
 }
 
 header {
     max-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.headerleftimg {
+    position: absolute;
+    top: -2rem;
+    left: -0.4rem;
 }
 
 .navbar {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     padding: 2rem 0;
-    /* padding: 2.8rem 13rem; */
     max-width: 80%;
-    background: red;margin: 0 auto;
-    
-
-    /*
-    width: Fixed (1, 440px) height: Hug (100px) padding: 28 130 28 130 justify: space-between
-    */
+    margin: 0 auto;
 }
 
 .hamburger {
@@ -47,6 +51,7 @@ header {
     text-decoration: none;
     font-size: 2rem;
     color: #003459;
+    font-weight: 550;
 }
 
 .navbar ul {
@@ -83,9 +88,6 @@ header {
 
 }
 
-/* .mainsearch input:active{
-    background: gray;
-} */
 
 .minorsearch img {
     padding-left: 1rem;
@@ -94,11 +96,362 @@ header {
 .joinbtn {
     background: #003459;
     color: white;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 10rem;
-    border: none;
+    border: 0.1rem solid #003459;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.mainbody {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.leftcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 40%;
+    position: relative;
+    z-index: 2;
+}
+
+
+.mainh1{
+    font-size: 4rem;
+    font-weight: 800rem;
+    color: #002A48;
+}
+
+.mainh2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #002A48;
+}
+
+.mainp1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #002A48;
+    line-height: 2rem;
+    
+}
+
+.mainbtndiv {
+    display: flex;
+    gap: 4rem;
+}
+
+.mainbtn1 {
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 10rem;
+    color: #002A48;
+    border: 0.1rem solid #002A48;
+    cursor: pointer;
     font-size: 1.5rem;
 }
+
+.mainbtn2  {
+    border-radius: 10rem;
+    background: #002A48;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border: 0.1rem solid #002A48;
+}
+
+.leftsidedbox {
+    width: 6rem;
+    position: absolute;
+    top: -1rem;
+    left: -1.5rem;
+    z-index: -1;
+}
+
+.rec5 {
+    position: absolute;
+    width: 1.289rem;
+    height: 1.289rem;
+    top: 5.313rem;
+    left: 14.387rem;
+}
+
+.rec6 {
+    position: absolute;
+    width: 1.719rem;
+    height: 1.719rem;
+    top: 8.793rem;
+    left: 12.5rem;
+}
+
+.rec7 {
+    position: absolute;
+    width: 1.342rem;
+    height: 1.342rem;
+    top: 9.353rem;
+    left: 12.5rem;
+}
+
+.toprightimage {
+    width: 60%;
+    position: relative;
+    z-index: 2;
+    top:10rem;
+}
+.box1 {
+    position: absolute;
+    left: -9rem;
+    bottom: -8.5rem;
+    z-index: -1;
+}
+
+.box2 {
+    position: absolute;
+    bottom: -4rem;
+    z-index: -1;
+}
+
+.petmaincontainer {
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 6rem;
+
+}
+
+.petlineup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.petheading {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.petlook {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    
+}
+
+.petheading h4 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+
+.petlook h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #002A48;
+}
+
+.viewmore1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #002A48;
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 1rem 3rem;
+    border: 0.2rem solid #002A48;
+    background: white;
+}
+
+.petpics {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+
+
+}
+
+.petpics img {
+    width: 100%;
+    border-radius: 0.2rem;
+}
+.petinfo h3 {
+    font-size: 1.6rem;
+    color: #01131f;
+    font-weight: 700;
+    line-height: 2.4rem;
+
+}
+
+.petinfo p {
+    color: #667479;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+}
+
+.briefsection {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #003459;
+    height: 60vh;
+    border-radius: 3rem;
+    overflow: hidden;
+    margin-top: 7rem;
+}
+
+.leftbriefsection {
+    flex: 50%;
+    position: relative;
+}
+
+.rightbriefsection {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbriefdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem;
+}
+
+.leftbriefsection img {
+    position: absolute;
+    bottom: 0rem;
+}
+
+.leftbriefsection .rec1 {
+    position: absolute;
+    bottom: 0rem;
+}
+
+.rightbriefsection .rect9 {
+    position: absolute;
+    z-index: -1;
+    height: 40rem;
+}
+
+.rightbriefsection .briefh1 {
+    color: #003459;
+    font-size: 4.2rem;
+    font-weight: 800;
+    line-height: 6.8rem;
+    text-align: right;
+}
+
+.rightbriefsection .briefh2 {
+    color: #003459;
+    font-size: 3.3rem;
+    font-weight: 600;
+    line-height: 6.0rem;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.rightbriefsection .briefp1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #002A48;
+    line-height: 2.4rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    /* width: 57ch; */
+    text-align: left;
+}
+
+.briefbtndiv {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+
+.briefbtn1{
+    /* align-items:flex-end; */
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 10rem;
+    color: #002A48;
+    border: 0.1rem solid #002A48;
+    cursor: pointer;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+
+.explorebtn2 {
+    border-radius: 10rem;
+    background: #002A48;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border: 0.1rem solid #002A48;
+}
+
+.productmain {
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 6rem;
+    border: red 1px solid;
+}
+
+.productlineup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
