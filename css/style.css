@@ -699,7 +699,6 @@ header {
 
     .petprofile {
         display: flex;
-        border: red 1px solid;
         max-width: 80%;
         gap: 2rem;
         margin: 0 auto;
@@ -707,7 +706,7 @@ header {
 
     .petinfos {
         width: 32%;
-        padding: 1rem;
+        padding: 2rem;
         box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
         border-radius: 1rem;
     }
@@ -741,13 +740,122 @@ header {
     }
 
 
+    .bottomcontainer {
+        width: 100%;
+        background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+        padding-top: 5rem;
+        margin-top: 2rem;
+        border-radius: 2rem;
+
+    }
+
+    .register {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        background: #003459;
+        padding: 3.2rem;
+        gap: 2rem;
+        border-radius: 1.6rem;
+    }
+
+    .register h1 {
+        width: 40%;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .register .sign{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: white;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .register input {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 0.1rem solid gray;
+        outline: none;
+    }
+
+    .register button {
+        width: 20rem;
+        background: #003459;
+        color: white;
+        border: none;
+        border-radius: 0.8rem;
+        padding: 1.4rem 2.8rem 1rem;
+        cursor: pointer;
+    }
+
+    .media {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        padding-top: 4rem;
+        height: 25vh;
+        border-bottom: 1px solid gray;
+    }
+
+    .medialinks {
+        display: flex;
+        gap: 6rem;
+
+    }
+
+    .medialink a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color:#00171F;
+        margin: 1.8rem;
+    }
+
+    .mediaimg {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        padding: 2rem 0;
+
+    }
+
+    .footerlink {
+        display: flex;
+        gap: 3rem;
+    }
+
+    footer p {
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #667479;
+    }
+
+    .footerlink a {
+        text-decoration: none;
+        color: #667479;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
 
 
-
-
-
-
-
+    
 
 
 
