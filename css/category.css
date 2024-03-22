@@ -103,7 +103,15 @@ body {
   cursor: pointer;
 }
 
-
+.leftcategory {
+  
+}
+.leftcategory .aside-filter-item-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #00171F;
+  padding: 1rem;
+}
 
 .fastlinks {
   display: flex;
@@ -302,9 +310,29 @@ body {
   line-height: 1.25rem;
 }
 
+.pagination {
+  font-size: 2rem;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 5rem 0;
+}
 
+.pagination a {
+  text-decoration: none;
+  color: #003459;
+  font-weight: 550;
+}
 
-
+.pagination .active {
+  background: #003459;
+  color: white;
+  padding: 1rem ;
+  border-radius: 1rem;
+}
 
 
 
