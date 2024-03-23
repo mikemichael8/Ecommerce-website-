@@ -42,7 +42,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 4rem 0;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -133,359 +133,107 @@ header {
 } */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .bottomcontainer {
+.customer-section {
+
+}
+
+
+.lovelycustomers h4 {
+  display: flex;
+  font-size: 1.8rem;
+  padding: 2rem 0 0.8rem;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 600;
+  color: #00171F;
+}
+
+.customer-section {
+  display: flex;
+  max-width: 80%;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.pagecontrol {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+
+.petmaincontainer {
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+
+.petlineup {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+
+}
+
+.petheading {
+  display: flex;
+  flex-direction: column;
+}
+
+.petlook {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.petheading h4 {
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+
+}
+
+
+.petlook h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #002A48;
+}
+
+.petpics {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 0.2rem;
+  box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+  border-radius: 1rem;
+
+}
+
+.petpics img {
+  width: 100%;
+  border-radius: 0.2rem;
+}
+
+.petinfo h3 {
+  font-size: 1.6rem;
+  color: #01131f;
+  font-weight: 700;
+  line-height: 2.4rem;
+
+}
+
+.petinfo p {
+  color: #667479;
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+}
+
+.bottomcontainer {
   width: 100%;
   background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
   padding-top: 5rem;
@@ -597,7 +345,7 @@ footer p {
   color: #667479;
   font-weight: 500;
   font-size: 1.4rem;
-} */
+} 
 
 
 
