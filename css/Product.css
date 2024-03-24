@@ -108,9 +108,122 @@ header {
 }
 
 
+#product-details {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+}
 
+.product-img {
+  width: 60%;
+}
 
+.product-detail {
+  width: 40%;
 
+}
+
+.quicklinks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  color: #667479;
+  font-size: 1.2rem;
+}
+
+.quicklinks a {
+  color: #667479;
+  text-decoration: none;
+}
+
+.smalldetails {
+  padding: 1.2rem 0;
+}
+
+.smalldetails h5 {
+  font-size: 1rem;
+  color: #99A2A5;
+  padding-bottom: 0.6rem;
+}
+
+.smalldetails h3 {
+  font-size: 1.6rem;
+  color: #00171F;
+  padding-bottom: 0.6rem;
+}
+
+.smalldetails h4 {
+  font-size: 1.4rem;
+  color: #002A48;
+}
+
+.contactbtn {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.contactbtn .btn1 {
+  background: #003459;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  border: 0.1rem solid #003459;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.contactbtn .btn {
+  display: flex;
+  align-items: center;
+}
+
+.contactbtn .btn2 {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  background: white;
+  color: #003459;
+  padding: 0.6rem 3rem;
+  border-radius: 10rem;
+  border: 0.2rem solid #003459;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.tag-line img {
+  padding-top: 2rem;
+
+}
+
+.social-media {
+  display: flex;
+  padding: 2rem 0;
+  gap: 1.4rem;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #003459;
+}
+
+.social-media .ri-facebook-fill {
+  color: #667479;
+}
+
+.social-media .ri-instagram-fill {
+  color: #667479;
+}
+.social-media .ri-twitter-fill {
+  color: #667479;
+}
+.social-media .ri-youtube-fill {
+  color: #667479;
+}
 
 /* 
 .circle-container {
@@ -133,9 +246,9 @@ header {
 } */
 
 
-.customer-section {
+/* .customer-section {
 
-}
+} */
 
 
 .lovelycustomers h4 {
@@ -146,6 +259,7 @@ header {
   margin: 0 auto;
   font-weight: 600;
   color: #00171F;
+  
 }
 
 .customer-section {
@@ -153,6 +267,11 @@ header {
   max-width: 80%;
   padding: 2rem 0;
   margin: 0 auto;
+}
+
+.customers {
+  display: flex;
+  overflow-x: hidden;
 }
 
 .pagecontrol {
