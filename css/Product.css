@@ -390,7 +390,6 @@ td {
   padding-top: 5rem;
   margin-top: 2rem;
   border-radius: 2rem;
-  border: 1px red solid;
 
 }
 
@@ -549,6 +548,7 @@ footer p {
     .shibacont {
       width: 100%;
       display: flex;
+      /* padding: 5rem; */
       flex-direction: column;
       justify-content: center;
       gap: 1.5rem;
@@ -569,6 +569,14 @@ footer p {
     }
 
     .filepath {
+      width: 100%;
+    }
+
+     #container {
+       padding: 0rem;
+     }
+
+    .biggerIMG{
       width: 100%;
     }
 
