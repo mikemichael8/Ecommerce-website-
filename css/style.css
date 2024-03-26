@@ -855,67 +855,6 @@ header {
     }
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -923,7 +862,9 @@ header {
     .navbar ul, .mainsearch input, .dropdown, .joinbtn {
         display: none;
     }
-        .hamburger {
-            display: block;
-        }
+    .hamburger {
+        display: block;
+    }
+
+    
 }
