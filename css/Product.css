@@ -506,7 +506,7 @@ footer p {
   font-size: 1.4rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1240px) {
   .navbar ul,
   .mainsearch input,
   .dropdown,
@@ -760,7 +760,7 @@ footer p {
   }
 
   .infosign {
-    background-color: red;
+    /* background-color: red; */
     display: block;
     /* position: absolute; */
   }
