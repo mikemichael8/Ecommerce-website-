@@ -338,10 +338,6 @@ body {
   color: #667479;
 }
 
-.title .aside-title {
-  /* display: flex;
-  justify-content: flex-start; */
-}
 
 .button .body {
   padding: 0.8rem 2rem;
@@ -357,10 +353,15 @@ body {
   grid-template-columns: 1fr auto;
   margin: 0 auto;
 }
+
 .rightcategory {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
+}
+
+.rightcategory .fivemore {
+  display: none;
 }
 
 .petframe {
@@ -387,6 +388,40 @@ body {
 }
 
 .petinform p {
+  color: #667479;
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+}
+
+.rightcategory .fivemore {
+  display: none;
+} 
+
+.fivemore {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 0.2rem;
+  box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+  border-radius: 1rem;
+}
+
+.fivemore img {
+  width: 100%;
+  border-radius: 0.2rem;
+}
+
+
+.petinform1 h3 {
+  font-size: 1.6rem;
+  color: #01131f;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.petinform1 p {
   color: #667479;
   font-size: 1.2rem;
   line-height: 1.25rem;
@@ -532,7 +567,7 @@ footer p {
   font-size: 1.4rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1240px) {
   .navbar ul,
   .mainsearch input,
   .dropdown,
@@ -543,9 +578,17 @@ footer p {
   .hamburger {
     display: block;
   }
+
+  .pagination a {
+    font-size: 2rem;
+  }
+
+
 }
 
-@media (max-width: 400px) {
+
+
+@media (max-width: 750px) {
   .navbar ul,
   .mainsearch input,
   .dropdown,
@@ -559,6 +602,140 @@ footer p {
 
   body {
     width: 100%;
+  }
+    .bluerectangle{
+      width: 70%;
+      transform: rotateY(180deg);
+    }
+    .body-banner {
+      background: #fceed5;
+      height: 55vh;
+      border-radius: 2rem;
+      max-width: 80%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+  
+    .dogbanner img {
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      z-index: 2;
+      width: 100%;
+    }
+  
+    .body-banner-content {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: ; */
+      align-items: flex-end;
+
+      gap: 2rem;
+      max-width: 100%;
+      padding: 2rem 1rem;
+    }
+  
+    .body-banner-text {
+      position: relative;
+      z-index: 2;
+    }
+  
+    .body-banner-content img {
+      position: absolute;
+      bottom: 0px;
+      right: -40px;
+      z-index: 1;
+    }
+  
+    .body-banner-text h1 {
+      font-size: 3rem;
+      font-weight: 800rem;
+      color: #ffffff;
+    }
+  
+    .body-banner-text h3 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+  
+    .body-banner-text p {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #ffffff;
+      line-height: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  
+    .body-banner-button {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+    }
+  
+    .Intro {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding: 0.7rem 2.8rem;
+      border-radius: 10rem;
+      color: white;
+      background: #002a48;
+      border: 0.1rem solid #ffffff;
+      cursor: pointer;
+      font-size: 1.5rem;
+      width: 50%;
+      white-space: nowrap;
+    }
+  
+    .Explore {
+      border-radius: 10rem;
+      background: white;
+      color: #002a48;
+      cursor: pointer;
+      font-size: 1.5rem;
+      padding: 0.5rem 2rem;
+      border: 0.1rem solid #002a48;
+      width: 50%;
+      white-space: nowrap;
+    }
+
+  .aside-title h3 {
+    display: none;
+  }
+
+  .gendertype {
+    display: none;
+  }
+
+  .fullcategory {
+    width: 100%;
+  }
+
+  .leftcategory {
+    display: none;
+  }
+
+  .rightcategory {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rightcategory .fivemore {
+    display: grid;
+  }
+    .rightcategory .fivemore img{
+      width: 100%;
+    }
+
+  .pagination a {
+    font-size: 1.5rem;
   }
 
   .register {
