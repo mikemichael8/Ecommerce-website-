@@ -108,6 +108,20 @@ header {
   border: 1px solid rgb(207, 200, 200);
 }
 
+
+
+.seconddog {
+  display: none;
+}
+
+.infosign {
+  display: none;
+}
+
+.info2 {
+  display: none;
+}
+
 .leftcontainer {
   width: 60%;
 }
@@ -122,6 +136,7 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
+  position: relative;
 }
 
 .shibascroll {
@@ -133,6 +148,7 @@ header {
 
 .shibadog {
   width: 100%;
+  margin-top: -2rem;
 }
 
 .health {
@@ -294,28 +310,17 @@ td {
   color: #00171f;
 }
 
-.customertop h1 {
-  /* padding-bottom: 2rem;
-  border: red 1px solid; */
-}
+
 .customerdog {
   display: flex;
   overflow-x: hidden;
   gap: 2rem;
 }
 
-.customerdog img {
-  /* width: 22rem; */
-}
-
-/* .customerdog .halfimg {
-  width: 10rem;
-} */
 
 .slide {
   display: flex;
   justify-content: center;
-  /* border: red 1px solid; */
   padding-top: 2rem;
 }
 
@@ -523,6 +528,16 @@ footer p {
     width: 100%;
     margin: 0 auto;
   }
+
+  .seconddog {
+    display: block;
+    border-radius: 2rem;
+  }
+
+  .shibadog {
+    display: none;
+  }
+
   .leftcontainer {
     width: 100%;
   }
@@ -538,6 +553,39 @@ footer p {
     object-fit: cover;
   }
 
+    .infosign {
+      background-color: red;
+      display: block;
+      /* position: absolute; */
+    }
+  
+    .arrowsign {
+      position: absolute;
+      top: 3rem;
+      left: 0rem;
+    }
+  
+    .info {
+      position: absolute;
+      top: 5rem;
+      right: 1rem;
+    }
+
+    .info2 {
+      display: block;
+    }
+
+    .info3 {
+      position: absolute;
+      bottom: 30rem;
+    }
+  
+    .info4 {
+      position: absolute;
+      bottom: 30rem;
+      right: 1rem;
+    }
+
   .shibascroll img {
     width: 100%;
     display: block;
@@ -546,7 +594,7 @@ footer p {
   .shibacont {
     width: 100%;
     display: flex;
-    /* padding: 5rem; */
+    margin-top: -4rem;
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
@@ -661,7 +709,213 @@ footer p {
   }
 }
 
-@media (max-width: 370px){
+
+
+@media (max-width: 750px) {
+
+  .navbar ul,
+  .mainsearch input,
+  .dropdown,
+  .joinbtn {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .seconddog {
+    display: block;
+    border-radius: 2rem;
+  }
+
+  .shibadog {
+    display: none;
+  }
+
+  .leftcontainer {
+    width: 100%;
+  }
+
+  .shibascroll {
+    overflow-x: scroll;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .infosign {
+    background-color: red;
+    display: block;
+    /* position: absolute; */
+  }
+
+  .arrowsign {
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
+  }
+
+  .info {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+  }
+
+  .info2 {
+    display: block;
+  }
+
+  .info3 {
+    position: absolute;
+    bottom: 30rem;
+  }
+
+  .info4 {
+    position: absolute;
+    bottom: 30rem;
+    right: 1rem;
+  }
+
+  .shibascroll img {
+    width: 100%;
+    display: block;
+  }
+
+  .shibacont {
+    width: 100%;
+    display: flex;
+    margin-top: -4rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  #rightcontainer {
+    width: 100%;
+  }
+
+  #customer {
+    width: 100%;
+  }
+
+  .customerdog {
+    width: 100%;
+  }
+
+  .filepath {
+    width: 100%;
+  }
+
+  #container {
+    padding: 0rem;
+  }
+
+  .biggerIMG {
+    width: 100%;
+  }
+
+  .petmaincontainer {
+    width: 100%;
+  }
+
+  .petlineup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .health {
+    display: none;
+  }
+
+  .health2 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 0.5rem;
+    justify-content: center;
+    background: linear-gradient(102.87deg,
+        #fceed5 6.43%,
+        #fceed5 78.33%,
+        #ffe7ba 104.24%);
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register h1 {
+    width: 100%;
+  }
+
+  .register .sign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign input {
+    width: 100%;
+  }
+
+  .sign button {
+    width: 100%;
+  }
+
+  .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .medialink {
+    width: 100%;
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .medialink a {
+    width: 100%;
+    /* font-size: 1.3rem; */
+  }
+
+  .mediaimg {
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+
+
+@media (max-width: 400px){
 .medialink {
     width: 100%;
     display: flex;
