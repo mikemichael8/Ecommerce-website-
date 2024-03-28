@@ -302,7 +302,6 @@ body {
   border: 0.1rem solid #002a48;
 }
 
-
 .title {
   display: flex;
   align-items: center;
@@ -321,7 +320,6 @@ body {
 .filter2 {
   display: none;
 }
-
 
 .title-content {
   display: flex;
@@ -713,48 +711,46 @@ footer p {
     white-space: nowrap;
   }
 
-
-
   .title {
     display: flex;
     flex-direction: column;
   }
 
   .filter1 .body {
-    color:#667479;
+    color: #667479;
     background: transparent;
     border-radius: 10rem;
     border: #a6b1b4 1px solid;
     padding: 0.1rem 1.5rem;
   }
 
-    .filter1 {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-      padding-bottom: 2rem;
-    }
-    .filter2 {
-      width: 100%;
-      display: flex;
-      gap: 0.6rem;
-      align-items: center;
-      justify-content: flex-start;
-    }
+  .filter1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .filter2 {
+    width: 100%;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
-    /* .filter2 h4 h6 {
+  /* .filter2 h4 h6 {
       text-align: start;
     } */
 
-    .filter2 h4 {
-      color: #002a48;
-      font-size: 2rem;
-    }
+  .filter2 h4 {
+    color: #002a48;
+    font-size: 2rem;
+  }
 
-    .filter2 h6 {
-      color: #636b6d;
-      font-size: 1rem;
-    }
+  .filter2 h6 {
+    color: #636b6d;
+    font-size: 1rem;
+  }
 
   .button {
     display: none;
@@ -771,11 +767,26 @@ footer p {
     line-height: 2rem;
   }
 
-  .petinform p {
+    .petinform p {
+      color: #667479;
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+
+  .petinform1 h3 {
+    font-size: 1.2rem;
+    color: #01131f;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .petinform1 p {
     color: #667479;
     font-size: 1rem;
     line-height: 1rem;
   }
+
+  
 
   .aside-title h3 {
     display: none;
