@@ -42,7 +42,7 @@ header {
 
 .hamburger {
   display: none;
-}
+} 
 
 .navbar a {
   text-decoration: none;
@@ -63,7 +63,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-}
+} 
 
 .minorsearch {
   background: white;
@@ -72,7 +72,7 @@ header {
   align-items: center;
   overflow: hidden;
   justify-content: space-between;
-}
+} 
 
 .mainsearch input {
   border: none;
@@ -85,7 +85,7 @@ header {
 
 .minorsearch img {
   padding-left: 1rem;
-}
+} 
 
 .joinbtn {
   background: #003459;
@@ -95,7 +95,7 @@ header {
   border: 0.1rem solid #003459;
   font-size: 1.5rem;
   cursor: pointer;
-}
+} 
 
 #container {
   display: flex;
@@ -514,9 +514,13 @@ footer p {
     display: none;
   }
 
-  .hamburger {
-    display: block;
+  header {
+    display: none;
   }
+
+  /* .hamburger {
+    display: block;
+  } */
 
   body {
     width: 100%;
@@ -547,14 +551,14 @@ footer p {
     width: 100%;
   }
 
-  img {
+  /* img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-  }
+  } */
 
     .infosign {
-      background-color: red;
+      /* background-color: red; */
       display: block;
       /* position: absolute; */
     }
@@ -720,9 +724,13 @@ footer p {
     display: none;
   }
 
-  .hamburger {
+  header {
+    display: none;
+    }
+
+  /* .hamburger {
     display: block;
-  }
+  } */
 
   body {
     width: 100%;
@@ -925,5 +933,25 @@ footer p {
   .medialink a {
     width: 100%;
     font-size: 1rem;
+  }
+
+  .table {
+    margin: 2rem;
+  }
+
+  .health2 {
+    margin: 2rem;
+  }
+
+  .SKU {
+    margin: 2em;
+  } 
+
+  .rightbtn {
+    margin: 2rem;
+  }
+
+  .filepath {
+    margin: 2rem;
   }
 } 
