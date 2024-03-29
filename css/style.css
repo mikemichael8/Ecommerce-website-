@@ -19,7 +19,6 @@ body {
 }
 #container {
   background: #fceed5;
-  height: 100vh;
   overflow: hidden;
   border-radius: 2rem;
 }
@@ -105,9 +104,11 @@ header {
 .mainbody {
   display: flex;
   align-items: center;
-  max-width: 80%;
+  width: 80%;
   margin: 0 auto;
+  position: relative;
   justify-content: space-between;
+  /* border: 2px solid #003459; */
 }
 
 .leftcontent {
@@ -115,7 +116,7 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-  max-width: 100%;
+  width: 40%;
   position: relative;
   z-index: 2;
 }
@@ -137,6 +138,7 @@ header {
   font-weight: 500;
   color: #002a48;
   line-height: 2rem;
+  width: ;
 }
 
 .mainbtndiv {
@@ -179,7 +181,7 @@ header {
   width: 1.289rem;
   height: 1.289rem;
   top: 5.313rem;
-  left: 14.387rem;
+  left: 55%;
 }
 
 .rec6 {
@@ -187,7 +189,7 @@ header {
   width: 1.719rem;
   height: 1.719rem;
   top: 8.793rem;
-  left: 12.5rem;
+  left: 55%;
 }
 
 .rec7 {
@@ -195,28 +197,31 @@ header {
   width: 1.342rem;
   height: 1.342rem;
   top: 9.353rem;
-  left: 12.5rem;
+  left: 55%;
 }
 
-.toprightimage {
-  width: 100%;
-  position: relative;
+.womananddog {
+  width: 50%;
+  /* border: 2px solid green; */
   z-index: 2;
-  /* top: 0rem; */
-  right: -10rem;
 }
 
 .box1 {
   position: absolute;
-  left: -9rem;
-  bottom: -8.5rem;
-  z-index: -1;
+  right: -1.2rem;
+  bottom: -6rem;
+  width: 50%;
+  /* bottom: -8.5rem; */
+  z-index: 1;
 }
 
 .box2 {
   position: absolute;
-  bottom: -4rem;
-  z-index: -1;
+  /* bottom: -4rem; */
+  width: 50%;
+  bottom: -1.8rem;
+  right: -4rem;
+  z-index: 1;
 }
 
 .petmaincontainer {
