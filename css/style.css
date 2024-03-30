@@ -122,8 +122,8 @@ header {
 }
 
 .mainh1 {
-  font-size: 4rem;
-  font-weight: 800rem;
+  font-size: 5rem;
+  font-weight: 900rem;
   color: #002a48;
 }
 
@@ -134,11 +134,10 @@ header {
 }
 
 .mainp1 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  color: #002a48;
+  color: #040e14;
   line-height: 2rem;
-  width: ;
 }
 
 .mainbtndiv {
@@ -149,7 +148,7 @@ header {
 .mainbtn1 {
   align-items: center;
   display: flex;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
   border-radius: 10rem;
   color: #002a48;
   border: 0.1rem solid #002a48;
@@ -164,7 +163,7 @@ header {
   color: white;
   cursor: pointer;
   font-size: 1.5rem;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
   border: 0.1rem solid #002a48;
 }
 
@@ -862,12 +861,72 @@ footer p {
     width: 100%;
   }
 
+  .mainbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    /* justify-content: space-between; */
+    border: 2px solid green;
+  }
 
+  .leftcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 40%;
+    position: relative;
+    z-index: 2;
+  }
 
+  .mainh1 {
+    font-size: 5rem;
+    font-weight: 900rem;
+    color: #002a48;
+  }
 
+  .mainh2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #002a48;
+  }
 
+  .mainp1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #040e14;
+    line-height: 2rem;
+  }
 
+  .mainbtndiv {
+    display: flex;
+    gap: 4rem;
+  }
 
+  .mainbtn1 {
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 3rem;
+    border-radius: 10rem;
+    color: #002a48;
+    border: 0.1rem solid #002a48;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: transparent;
+  }
+
+  .mainbtn2 {
+    border-radius: 10rem;
+    background: #002a48;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 3rem;
+    border: 0.1rem solid #002a48;
+  }
 
   .petlineup {
     display: grid;
@@ -875,16 +934,15 @@ footer p {
     grid-gap: 2rem;
   }
 
-
   .petpics {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      padding: 1rem;
-      text-align: left;
-      border-radius: 0.2rem;
-      box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
-      border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+    border-radius: 1rem;
   }
 
   .petpics img {
@@ -893,18 +951,17 @@ footer p {
   }
 
   .petinfo h3 {
-      font-size: 1.3rem;
-      color: #01131f;
-      font-weight: 700;
-      line-height: 2.4rem;
+    font-size: 1.3rem;
+    color: #01131f;
+    font-weight: 700;
+    line-height: 2.4rem;
   }
 
   .petinfo p {
-      color: #667479;
-      font-size: 1.2rem;
-      line-height: 1.25rem;
-  } 
-  
+    color: #667479;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+  }
 
   .petheading h4 {
     font-size: 1rem;
@@ -959,6 +1016,7 @@ footer p {
     max-width: 100%;
     gap: 2rem;
     /* margin: 0 auto; */
+    padding: 2rem;
   }
 
   .petinfos {
@@ -999,6 +1057,7 @@ footer p {
 
   .petknowledge2 {
     display: block;
+    padding: 1.6rem;
   }
 
   .viewmore5 {
