@@ -42,7 +42,7 @@ header {
 
 .hamburger {
   display: none;
-} 
+}
 
 .navbar a {
   text-decoration: none;
@@ -63,7 +63,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-} 
+}
 
 .minorsearch {
   background: white;
@@ -72,7 +72,7 @@ header {
   align-items: center;
   overflow: hidden;
   justify-content: space-between;
-} 
+}
 
 .mainsearch input {
   border: none;
@@ -85,7 +85,7 @@ header {
 
 .minorsearch img {
   padding-left: 1rem;
-} 
+}
 
 .joinbtn {
   background: #003459;
@@ -95,7 +95,7 @@ header {
   border: 0.1rem solid #003459;
   font-size: 1.5rem;
   cursor: pointer;
-} 
+}
 
 #container {
   display: flex;
@@ -107,8 +107,6 @@ header {
   border-radius: 2rem;
   border: 1px solid rgb(207, 200, 200);
 }
-
-
 
 .seconddog {
   display: none;
@@ -143,7 +141,8 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.3rem;
+  padding: 1rem;
 }
 
 .shibadog {
@@ -163,7 +162,7 @@ header {
     #ffe7ba 104.24%
   );
   width: 100%;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -293,8 +292,8 @@ th {
   color: #667479;
 }
 
-table p{
-  padding-left: .95rem;
+table p {
+  padding-left: 0.95rem;
 }
 
 #customer {
@@ -313,7 +312,6 @@ table p{
   color: #00171f;
 }
 
-
 .customerdog {
   display: flex;
   overflow-x: hidden;
@@ -323,7 +321,6 @@ table p{
 .customertop {
   padding: 2rem;
 }
-
 
 .slide {
   display: flex;
@@ -564,38 +561,38 @@ footer p {
     object-fit: cover;
   } */
 
-    .infosign {
-      /* background-color: red; */
-      display: block;
-      /* position: absolute; */
-    }
-  
-    .arrowsign {
-      position: absolute;
-      top: 3rem;
-      left: 0rem;
-    }
-  
-    .info {
-      position: absolute;
-      top: 5rem;
-      right: 1rem;
-    }
+  .infosign {
+    /* background-color: red; */
+    display: block;
+    /* position: absolute; */
+  }
 
-    .info2 {
-      display: block;
-    }
+  .arrowsign {
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
+  }
 
-    .info3 {
-      position: absolute;
-      bottom: 30rem;
-    }
-  
-    .info4 {
-      position: absolute;
-      bottom: 30rem;
-      right: 1rem;
-    }
+  .info {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+  }
+
+  .info2 {
+    display: block;
+  }
+
+  .info3 {
+    position: absolute;
+    bottom: 30rem;
+  }
+
+  .info4 {
+    position: absolute;
+    bottom: 30rem;
+    right: 1rem;
+  }
 
   .shibascroll img {
     width: 100%;
@@ -688,7 +685,7 @@ footer p {
     width: 100%;
   }
 
-  .media{
+  .media {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -720,10 +717,7 @@ footer p {
   }
 }
 
-
-
 @media (max-width: 750px) {
-
   .navbar ul,
   .mainsearch input,
   .dropdown,
@@ -733,7 +727,7 @@ footer p {
 
   header {
     display: none;
-    }
+  }
 
   /* .hamburger {
     display: block;
@@ -864,10 +858,12 @@ footer p {
     /* align-items: center; */
     gap: 0.5rem;
     justify-content: center;
-    background: linear-gradient(102.87deg,
-        #fceed5 6.43%,
-        #fceed5 78.33%,
-        #ffe7ba 104.24%);
+    background: linear-gradient(
+      102.87deg,
+      #fceed5 6.43%,
+      #fceed5 78.33%,
+      #ffe7ba 104.24%
+    );
     width: 100%;
   }
 
@@ -927,15 +923,13 @@ footer p {
   }
 }
 
-
-
-@media (max-width: 400px){
-.medialink {
+@media (max-width: 420px) {
+  .medialink {
     width: 100%;
     display: flex;
     gap: 0.1rem;
   }
-  #container{
+  #container {
     gap: 1rem;
   }
 
@@ -948,21 +942,24 @@ footer p {
     padding: 2rem;
   }
 
-.health2 {
+  .health2 {
     width: 95%;
     margin: 0 auto;
     border-radius: 1rem;
-  } 
-.healthleft{
-  margin-left: 1.5rem;
-}
-.healthright{
-  margin-left: 1rem;
-}
+    margin-top: 2rem;
+  }
+
+  .healthleft {
+    margin-left: 1.5rem;
+  }
+
+  .healthright {
+    margin-left: 1rem;
+  }
 
   .SKU {
     padding: 0 2rem;
-  } 
+  }
 
   .rightbtn {
     padding: 0 2rem;
@@ -971,4 +968,35 @@ footer p {
   .filepath {
     padding: 0 2rem;
   }
-} 
+
+  .shibascroll {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .seconddog {
+    display: block;
+    /* border-radius: 2rem; */
+  }
+
+  .shareleft {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .shareleft p {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .shareright {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
