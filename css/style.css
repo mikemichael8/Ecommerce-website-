@@ -108,7 +108,7 @@ header {
   margin: 0 auto;
   position: relative;
   justify-content: space-between;
-  /* border: 2px solid #003459; */
+  overflow: hidden;
 }
 
 .leftcontent {
@@ -225,7 +225,7 @@ header {
 
 .petmaincontainer {
   align-items: center;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 6rem;
 }
@@ -303,9 +303,9 @@ header {
   margin: 0 auto;
   justify-content: space-between;
   background-color: #003459;
-  height: 60vh;
-  border-radius: 3rem;
+  /* height: 60vh; */
   overflow: hidden;
+  border-radius: 3rem;
   margin-top: 7rem;
 }
 
@@ -861,15 +861,53 @@ footer p {
     width: 100%;
   }
 
+  #container {
+    background: #fceed5;
+    overflow: hidden;
+    border-radius: 0 0 2rem 0;
+    width: 100%;
+  }
+
   .mainbody {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+    /* margin: 0 auto; */
     position: relative;
     /* justify-content: space-between; */
-    border: 2px solid green;
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .womananddog {
+    width: 100%;
+  }
+
+  .leftsidedbox {
+    display: none;
+  }
+
+  .rec5 {
+    display: none;
+  }
+
+  .rec6 {
+    display: none;
+  }
+
+  .rec7 {
+    display: none;
+  }
+
+  .box1 {
+    width: 100%;
+  }
+
+  .box2 {
+    width: 100%;
   }
 
   .leftcontent {
@@ -877,7 +915,372 @@ footer p {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    width: 40%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .mainh1 {
+    font-size: 5rem;
+    font-weight: 900rem;
+    color: #002a48;
+  }
+
+  .mainh2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #002a48;
+  }
+
+  .mainp1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #040e14;
+    line-height: 2rem;
+  }
+
+  .mainbtndiv {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .mainbtn1 {
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 3rem;
+    border-radius: 10rem;
+    color: #002a48;
+    border: 0.1rem solid #002a48;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: transparent;
+  }
+
+  .mainbtn2 {
+    border-radius: 10rem;
+    background: #002a48;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 3rem;
+    border: 0.1rem solid #002a48;
+  }
+
+  .petlineup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
+  }
+
+  .petpics {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+    border-radius: 1rem;
+    width: 100%;
+  }
+
+  .petpics img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .petinfo h3 {
+    font-size: 1.3rem;
+    color: #01131f;
+    font-weight: 700;
+    line-height: 2.4rem;
+  }
+
+  .petinfo p {
+    color: #667479;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+  }
+
+  .petheading h4 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .petlook h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #002a48;
+  }
+
+  .viewmore1 {
+    display: none;
+  }
+    .briefsection {
+      display: flex;
+      max-width: 100%;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      background-color: #003459;
+      border-radius: 3rem;
+      gap: 40rem;
+      margin-top: 7rem;
+    }
+  
+    .leftbriefsection {
+      width: 100%;
+      position: relative;
+      border: 3px solid red;
+    }
+  
+    .rightbriefsection {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .rightbriefdiv {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0;
+    }
+
+  .adoptionsection {
+    display: none;
+  }
+
+  .petsellerlogo {
+    display: none;
+  }
+
+  .productmain {
+    display: none;
+  }
+
+  .petseller {
+    display: none;
+  }
+
+  .petknowledge1 {
+    display: none;
+  }
+
+  .petknowledge h4 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-weight: 550;
+  }
+
+  .petknowledge h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #002a48;
+  }
+
+  .petprofile {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 2rem;
+    /* margin: 0 auto; */
+    padding: 2rem;
+  }
+
+  .petinfos {
+    width: 100%;
+    padding: 2rem;
+    box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
+    border-radius: 1rem;
+  }
+
+  .petinfos img {
+    width: 100%;
+  }
+
+  .petinfos1 button {
+    padding: 0.3rem;
+    margin-top: 1rem;
+    background: #00a7e7;
+    color: white;
+    border: #00a7e7 0.1rem solid;
+    border-radius: 10rem;
+    font-size: 1rem;
+  }
+
+  .petinfos h3 {
+    font-size: 1.2rem;
+    color: #01131f;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .petinfos p {
+    font-size: 1.1rem;
+    color: #242b33;
+    line-height: 2rem;
+  }
+
+  .petknowledge2 {
+    display: block;
+    padding: 1.6rem;
+  }
+
+  .viewmore5 {
+    margin-top: 3rem;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #002a48;
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 1rem 3rem;
+    border: 0.2rem solid #002a48;
+    background: white;
+  }
+
+  .register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register h1 {
+    width: 100%;
+  }
+
+  .register .sign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign input {
+    width: 100%;
+  }
+
+  .sign button {
+    width: 100%;
+  }
+
+  .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .medialink {
+    width: 100%;
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .medialink a {
+    width: 100%;
+    /* font-size: 1.3rem; */
+  }
+
+  .mediaimg {
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar ul,
+  .mainsearch input,
+  .dropdown,
+  .joinbtn {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  #container {
+    width: 100%;
+    background: #fceed5;
+    overflow: hidden;
+    border-radius: 0 0 2rem 0;
+  }
+
+  .mainbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+    /* margin: 0 auto; */
+    position: relative;
+    /* justify-content: space-between; */
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .petmaincontainer {
+    align-items: center;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding: 1rem;
+  }
+
+  .womananddog {
+    width: 100%;
+  }
+
+  .leftsidedbox {
+    display: none;
+  }
+
+  .rec5 {
+    display: none;
+  }
+
+  .rec6 {
+    display: none;
+  }
+
+  .rec7 {
+    display: none;
+  }
+
+  .box1 {
+    width: 100%;
+  }
+
+  .box2 {
+    width: 100%;
+  }
+
+  .leftcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
     position: relative;
     z-index: 2;
   }
