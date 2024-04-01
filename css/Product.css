@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -728,10 +729,6 @@ footer p {
   header {
     display: none;
   }
-
-  /* .hamburger {
-    display: block;
-  } */
 
   body {
     width: 100%;
