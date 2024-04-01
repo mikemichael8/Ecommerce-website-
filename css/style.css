@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -225,7 +226,7 @@ header {
 
 .petmaincontainer {
   align-items: center;
-  max-width: 100%;
+  max-width: 80%;
   margin: 0 auto;
   padding-top: 6rem;
 }
@@ -1059,15 +1060,6 @@ footer p {
     padding: 0 2rem;
   }
 
-  .rightbriefdiv h2 {
-    /* font-size: 1.4rem;
-    font-weight: 600;
-    color: #002a48; */
-  }
-
-    .briefbtndiv button {
-      /* right: 5rem; */
-    }
 
   .adoptionsection {
     display: none;
@@ -1360,7 +1352,7 @@ footer p {
     gap: 2rem;
     padding: 1rem;
     text-align: left;
-    border-radius: 0.2rem;
+    /* border-radius: 0.2rem; */
     box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
     border-radius: 1rem;
   }
