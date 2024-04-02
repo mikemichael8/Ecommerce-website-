@@ -192,7 +192,6 @@ header {
   display: flex;
   width: 50%;
   gap: 2rem;
-  /* justify-content: space-between; */
 }
 
 .shareleft {
@@ -404,7 +403,6 @@ table p {
   padding-top: 5rem;
   margin-top: 2rem;
   border-radius: 2rem;
-  /* border: green 1px solid; */
 }
 
 .register {
@@ -490,7 +488,6 @@ footer {
   width: 80%;
   margin: auto;
   padding: 2rem 0;
-  /* border: red 1px solid; */
 }
 
 .footerlink {
@@ -523,10 +520,6 @@ footer p {
     display: none;
   }
 
-  /* .hamburger {
-    display: block;
-  } */
-
   body {
     width: 100%;
   }
@@ -556,16 +549,8 @@ footer p {
     width: 100%;
   }
 
-  /* img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-  } */
-
   .infosign {
-    /* background-color: red; */
     display: block;
-    /* position: absolute; */
   }
 
   .arrowsign {
@@ -649,7 +634,6 @@ footer p {
   .health2 {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 0.5rem;
     justify-content: center;
     background: linear-gradient(
@@ -701,7 +685,6 @@ footer p {
 
   .medialink a {
     width: 100%;
-    /* font-size: 1.3rem; */
   }
 
   .mediaimg {
@@ -766,9 +749,7 @@ footer p {
   }
 
   .infosign {
-    /* background-color: red; */
     display: block;
-    /* position: absolute; */
   }
 
   .arrowsign {
@@ -852,7 +833,6 @@ footer p {
   .health2 {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 0.5rem;
     justify-content: center;
     background: linear-gradient(
@@ -903,7 +883,6 @@ footer p {
 
   .medialink a {
     width: 100%;
-    /* font-size: 1.3rem; */
   }
 
   .mediaimg {
@@ -977,7 +956,6 @@ footer p {
 
   .seconddog {
     display: block;
-    /* border-radius: 2rem; */
   }
 
   .shareleft {
