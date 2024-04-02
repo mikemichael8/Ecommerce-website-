@@ -211,13 +211,11 @@ header {
   right: -1.2rem;
   bottom: -6rem;
   width: 50%;
-  /* bottom: -8.5rem; */
   z-index: 1;
 }
 
 .box2 {
   position: absolute;
-  /* bottom: -4rem; */
   width: 50%;
   bottom: -1.8rem;
   right: -4rem;
@@ -305,7 +303,6 @@ header {
   margin: 0 auto;
   justify-content: space-between;
   background-color: #003459;
-  /* height: 60vh; */
   overflow: hidden;
   border-radius: 3rem;
   margin-top: 7rem;
@@ -374,7 +371,6 @@ header {
   margin-top: 2rem;
   padding-bottom: 2rem;
   align-items: center;
-  /* width: 57ch; */
   text-align: left;
 }
 
@@ -385,7 +381,6 @@ header {
 }
 
 .briefbtn1 {
-  /* align-items:flex-end; */
   display: flex;
   padding: 0.5rem 2rem;
   border-radius: 10rem;
@@ -877,9 +872,7 @@ footer p {
     gap: 2rem;
     width: 100%;
     justify-content: center;
-    /* margin: 0 auto; */
     position: relative;
-    /* justify-content: space-between; */
     padding: 1rem;
     overflow: hidden;
   }
@@ -1195,7 +1188,6 @@ footer p {
 
   .medialink a {
     width: 100%;
-    /* font-size: 1.3rem; */
   }
 
   .mediaimg {
@@ -1242,9 +1234,7 @@ footer p {
     gap: 2rem;
     width: 100%;
     justify-content: center;
-    /* margin: 0 auto; */
     position: relative;
-    /* justify-content: space-between; */
     padding: 1rem;
     overflow: hidden;
   }
@@ -1252,7 +1242,6 @@ footer p {
   .petmaincontainer {
     align-items: center;
     width: 100%;
-    /* margin: 0 auto; */
     padding: 1rem;
   }
 
@@ -1352,7 +1341,6 @@ footer p {
     gap: 2rem;
     padding: 1rem;
     text-align: left;
-    /* border-radius: 0.2rem; */
     box-shadow: 0rem 0.4rem 2.8rem -0.2rem #00000014;
     border-radius: 1rem;
   }
@@ -1427,7 +1415,6 @@ footer p {
     flex-direction: column;
     max-width: 100%;
     gap: 2rem;
-    /* margin: 0 auto; */
     padding: 2rem;
   }
 
@@ -1524,7 +1511,6 @@ footer p {
 
   .medialink a {
     width: 100%;
-    /* font-size: 1.3rem; */
   }
 
   .mediaimg {

@@ -307,7 +307,6 @@ body {
   display: flex;
   align-items: center;
   width: 80%;
-  /* padding: 3rem; */
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 3rem;
@@ -739,10 +738,6 @@ footer p {
     justify-content: flex-start;
   }
 
-  /* .filter2 h4 h6 {
-      text-align: start;
-    } */
-
   .filter2 h4 {
     color: #002a48;
     font-size: 2rem;
@@ -860,7 +855,6 @@ footer p {
 
   .medialink a {
     width: 100%;
-    /* font-size: 1.3rem; */
   }
 
   .mediaimg {
